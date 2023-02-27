@@ -1,0 +1,9 @@
+/home/eaibot/catkin_ws/install/_setup_util.py
+/home/eaibot/catkin_ws/install/env.sh
+/home/eaibot/catkin_ws/install/setup.bash
+/home/eaibot/catkin_ws/install/local_setup.bash
+/home/eaibot/catkin_ws/install/setup.sh
+/home/eaibot/catkin_ws/install/local_setup.sh
+/home/eaibot/catkin_ws/install/setup.zsh
+/home/eaibot/catkin_ws/install/local_setup.zsh
+/home/eaibot/catkin_ws/install/.rosinstall

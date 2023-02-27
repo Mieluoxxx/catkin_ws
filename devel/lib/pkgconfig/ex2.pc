@@ -1,0 +1,8 @@
+prefix=/home/eaibot/catkin_ws/devel
+
+Name: ex2
+Description: Description of ex2
+Version: 0.0.0
+Cflags: -I/home/eaibot/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp std_msgs

@@ -1,0 +1,8 @@
+prefix=/home/eaibot/catkin_ws/devel
+
+Name: easy_topic
+Description: Description of easy_topic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
