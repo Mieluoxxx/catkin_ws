@@ -265,6 +265,18 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/opt/ros/kinetic/share/actionlib/cmake
+
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/kinetic/share/actionlib_msgs/cmake
+
+//Value Computed by CMake
+base_action_BINARY_DIR:STATIC=/home/eaibot/catkin_ws/build/base_action
+
+//Value Computed by CMake
+base_action_SOURCE_DIR:STATIC=/home/eaibot/catkin_ws/src/base_action
+
 //Value Computed by CMake
 base_topic_BINARY_DIR:STATIC=/home/eaibot/catkin_ws/build/base_topic
 
@@ -273,6 +285,18 @@ base_topic_SOURCE_DIR:STATIC=/home/eaibot/catkin_ws/src/base_topic
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
+
+//Value Computed by CMake
+check_BINARY_DIR:STATIC=/home/eaibot/catkin_ws/build/check
+
+//Value Computed by CMake
+check_SOURCE_DIR:STATIC=/home/eaibot/catkin_ws/src/check
+
+//Value Computed by CMake
+check_parts_BINARY_DIR:STATIC=/home/eaibot/catkin_ws/build/check_parts
+
+//Value Computed by CMake
+check_parts_SOURCE_DIR:STATIC=/home/eaibot/catkin_ws/src/check_parts
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
@@ -388,6 +412,12 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
+
+//Value Computed by CMake
+param_server_BINARY_DIR:STATIC=/home/eaibot/catkin_ws/build/param_server
+
+//Value Computed by CMake
+param_server_SOURCE_DIR:STATIC=/home/eaibot/catkin_ws/src/param_server
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
@@ -539,7 +569,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

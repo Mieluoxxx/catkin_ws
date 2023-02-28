@@ -130,7 +130,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/eaibot/catkin_ws/build/easy_topic/cmake_install.cmake")
   include("/home/eaibot/catkin_ws/build/fibonacci/cmake_install.cmake")
   include("/home/eaibot/catkin_ws/build/hello_world/cmake_install.cmake")
+  include("/home/eaibot/catkin_ws/build/param_server/cmake_install.cmake")
   include("/home/eaibot/catkin_ws/build/server_client/cmake_install.cmake")
+  include("/home/eaibot/catkin_ws/build/base_action/cmake_install.cmake")
+  include("/home/eaibot/catkin_ws/build/check_parts/cmake_install.cmake")
 
 endif()
 

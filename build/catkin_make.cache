@@ -1,2 +1,2 @@
-base_topic:easy_topic:fibonacci:hello_world:server_client
+base_action:base_topic:check_parts:easy_topic:fibonacci:hello_world:param_server:server_client
 -DCATKIN_DEVEL_PREFIX=/home/eaibot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/eaibot/catkin_ws/install -G Unix Makefiles
